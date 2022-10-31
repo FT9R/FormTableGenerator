@@ -1,0 +1,11 @@
+E:\Visual Studio 2022\source\repos\FormTable\obj\Release\FormTable.csproj.AssemblyReference.cache
+E:\Visual Studio 2022\source\repos\FormTable\obj\Release\FormTable.csproj.SuggestedBindingRedirects.cache
+E:\Visual Studio 2022\source\repos\FormTable\obj\Release\SinTable.Form1.resources
+E:\Visual Studio 2022\source\repos\FormTable\obj\Release\SinTable.Properties.Resources.resources
+E:\Visual Studio 2022\source\repos\FormTable\obj\Release\FormTable.csproj.GenerateResource.cache
+E:\Visual Studio 2022\source\repos\FormTable\obj\Release\FormTable.csproj.CoreCompileInputs.cache
+E:\Visual Studio 2022\source\repos\FormTable\bin\Release\FormTableGenerator.exe.config
+E:\Visual Studio 2022\source\repos\FormTable\bin\Release\FormTableGenerator.exe
+E:\Visual Studio 2022\source\repos\FormTable\bin\Release\FormTableGenerator.pdb
+E:\Visual Studio 2022\source\repos\FormTable\obj\Release\FormTableGenerator.exe
+E:\Visual Studio 2022\source\repos\FormTable\obj\Release\FormTableGenerator.pdb
