@@ -1,5 +1,5 @@
 # FormTableGenerator
-This is the UI desktop application aimed at creating tables with DAC digital values
+This is the UI desktop application aimed at creating tables with DAC digital values for embedded systems
 
 ## TODO
 1. Set resolution value. For exapmle: 12 bit, then maximum digital value = 0xFFF
