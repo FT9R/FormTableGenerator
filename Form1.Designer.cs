@@ -1,4 +1,4 @@
-﻿namespace SinTable
+﻿namespace FormTableGenerator
 {
     partial class Form1
     {
@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Resolution_TB = new System.Windows.Forms.TextBox();
             this.Resolution_LB = new System.Windows.Forms.Label();
-            this.Points_LB = new System.Windows.Forms.Label();
-            this.Points_TB = new System.Windows.Forms.TextBox();
+            this.Samples_LB = new System.Windows.Forms.Label();
+            this.Samples_TB = new System.Windows.Forms.TextBox();
             this.Start_BT = new System.Windows.Forms.Button();
             this.Rows_LB = new System.Windows.Forms.Label();
             this.Rows_TB = new System.Windows.Forms.TextBox();
@@ -59,22 +59,22 @@
             this.Resolution_LB.TabIndex = 1;
             this.Resolution_LB.Text = "Resolution";
             // 
-            // Points_LB
+            // Samples_LB
             // 
-            this.Points_LB.AutoSize = true;
-            this.Points_LB.Location = new System.Drawing.Point(24, 43);
-            this.Points_LB.Name = "Points_LB";
-            this.Points_LB.Size = new System.Drawing.Size(36, 13);
-            this.Points_LB.TabIndex = 3;
-            this.Points_LB.Text = "Points";
+            this.Samples_LB.AutoSize = true;
+            this.Samples_LB.Location = new System.Drawing.Point(24, 43);
+            this.Samples_LB.Name = "Samples_LB";
+            this.Samples_LB.Size = new System.Drawing.Size(47, 13);
+            this.Samples_LB.TabIndex = 3;
+            this.Samples_LB.Text = "Samples";
             // 
-            // Points_TB
+            // Samples_TB
             // 
-            this.Points_TB.Location = new System.Drawing.Point(27, 59);
-            this.Points_TB.Name = "Points_TB";
-            this.Points_TB.Size = new System.Drawing.Size(51, 20);
-            this.Points_TB.TabIndex = 2;
-            this.Points_TB.Text = "128";
+            this.Samples_TB.Location = new System.Drawing.Point(27, 59);
+            this.Samples_TB.Name = "Samples_TB";
+            this.Samples_TB.Size = new System.Drawing.Size(51, 20);
+            this.Samples_TB.TabIndex = 2;
+            this.Samples_TB.Text = "128";
             // 
             // Start_BT
             // 
@@ -161,8 +161,8 @@
             this.Controls.Add(this.Rows_LB);
             this.Controls.Add(this.Rows_TB);
             this.Controls.Add(this.Start_BT);
-            this.Controls.Add(this.Points_LB);
-            this.Controls.Add(this.Points_TB);
+            this.Controls.Add(this.Samples_LB);
+            this.Controls.Add(this.Samples_TB);
             this.Controls.Add(this.Resolution_LB);
             this.Controls.Add(this.Resolution_TB);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -181,8 +181,8 @@
 
         private System.Windows.Forms.TextBox Resolution_TB;
         private System.Windows.Forms.Label Resolution_LB;
-        private System.Windows.Forms.Label Points_LB;
-        private System.Windows.Forms.TextBox Points_TB;
+        private System.Windows.Forms.Label Samples_LB;
+        private System.Windows.Forms.TextBox Samples_TB;
         private System.Windows.Forms.Button Start_BT;
         private System.Windows.Forms.Label Rows_LB;
         private System.Windows.Forms.TextBox Rows_TB;
