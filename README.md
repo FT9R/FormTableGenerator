@@ -50,7 +50,7 @@ const uint16_t Sin_12bit[128] =
 ## Possible future content
 * Piecewise setting of the waveform with a demonstration on the chart
 
-How it would work: user put through some points with x, y coordinates insise the period boundires (0-360°).
-And app will plot waveform on the chart. Then intermediate values will be approximated between two neighboring points.
-But it is just a theory. I know, app can determine the equation of line between two points and calculate value of any point on this line.
-This is too complicated routine, so i look out for more easy way. If you know how to do it, i am looking for your response
+How it will work: the user has specified several points with x, y coordinates inside the period boundaries (0-360°).
+And the application will display the waveform on the chart. Then intermediate values between two adjacent points will be approximated.
+But this is just a theory. I know the application can determine the equation of a line between two points and calculate the value of any point on that line.
+This is too complicated a routine, so I'm looking for an easier way. If you know how to do this, I'm waiting for your response
