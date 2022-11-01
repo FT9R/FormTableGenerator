@@ -7,9 +7,9 @@ This is the UI desktop application aimed at creating tables with DAC digital val
 but then you also have to use timer with higher frequency to get the same frequency of the signal:
 `Signal freq = timer freq/samples`
 3. Set desired number of rows. Pay attention, that this is also the way to calculate
-values amount in the one row. So you can use only integer values of dividing result
-
-## Example 1
+values amount in the one row. So app only take integer values of dividing result
+----
+### Example 1
 * Setting:
 
 ![10 Samples DataSetup](https://github.com/FT9R/FormTableGenerator/blob/master/Images/10%20Samples/DataSetup.png) 
@@ -21,11 +21,11 @@ const uint16_t Sin_12bit[10] =
 2047,844,100,100,844
 };
 ```
-* Waveform
+* Waveform:
 
 ![10 Samples Waveform](https://github.com/FT9R/FormTableGenerator/blob/master/Images/10%20Samples/Waveform.png) 
 
-## Example 2
+### Example 2
 * Setting:
 
 ![128 Samples DataSetup](https://github.com/FT9R/FormTableGenerator/blob/master/Images/128%20Samples/DataSetup.png) 
@@ -43,6 +43,13 @@ const uint16_t Sin_12bit[128] =
 600,672,748,828,910,995,1082,1172,1264,1357,1453,1550,1648,1747,1846,1947
 };
 ```
-* Waveform
+* Waveform:
 
 ![128 Samples Waveform](https://github.com/FT9R/FormTableGenerator/blob/master/Images/128%20Samples/Waveform.png) 
+
+## Possible future content
+* Piecewise setting of the waveform with a demonstration on the chart
+How it would work: user put through some points with x, y coordinates insise the period boundires (0-360°).
+And app will plot waveform on the chart. Then intermediate values will be approximated between two neighboring points.
+But it is just a theory. I know, app can determine the equation of line between two points and calculate value of any point on this line.
+This is too complicated routine, so i look out for more easy way. If you know how to do it, i am looking for your response
