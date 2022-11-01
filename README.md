@@ -10,3 +10,6 @@ but then you also have to use timer with higher frequency to get the same freque
 values amount in the one row. So you can use only integer values of dividing result
 
 ## Example
+* Setting:
+
+![10 Samples](https://github.com/FT9R/FormTableGenerator/blob/master/Images/10%20Samples/DataSetup.png) 
