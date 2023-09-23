@@ -7,14 +7,14 @@ This is the UI desktop application aimed at creating tables with DAC digital val
 but then you also have to use timer with higher frequency to get the same frequency of the signal:
 `Signal freq = timer freq/samples`
 3. Set desired number of rows. Pay attention, that this is also the way to calculate
-values amount in the one row. So app only take integer values of dividing result
+values amount in the one row. So app only take integer values of (Samples/Rows) dividing result
 ----
 ### Example 1
 * Setting:
 
 ![10 Samples DataSetup](https://github.com/FT9R/FormTableGenerator/blob/master/Images/10%20Samples/DataSetup.png) 
 * Table:
-```
+```C
 const uint16_t Sin_12bit[10] =
 {
 2047,3250,3994,3994,3250,
@@ -30,7 +30,7 @@ const uint16_t Sin_12bit[10] =
 
 ![128 Samples DataSetup](https://github.com/FT9R/FormTableGenerator/blob/master/Images/128%20Samples/DataSetup.png) 
 * Table:
-```
+```C
 const uint16_t Sin_12bit[128] =
 {
 2047,2147,2248,2347,2446,2544,2641,2737,2830,2922,3012,3099,3184,3266,3346,3422,
